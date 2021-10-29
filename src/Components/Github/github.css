@@ -1,0 +1,18 @@
+.github_wrapper{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+.github_link{
+    background-color: orangered;
+    padding: 8px 12px 8px 12px;
+}
+
+.github_link>a{
+    color: white;
+}
+
+.github_link>a:hover{
+    text-decoration: none;
+}

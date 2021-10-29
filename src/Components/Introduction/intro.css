@@ -1,0 +1,48 @@
+.intro_heading{
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+
+.intro_para{
+    color:white;
+    text-align: justify;
+
+}
+.main_intro{
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.intro_string{
+    color: orangered;
+}
+
+.pic1{
+    width: 300px;
+    height: 300px;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-top: 30px;
+    transition: transform 0.7s;
+}
+
+.pic1:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:768px){
+    .intro_heading{
+        margin-top: 1px !important;
+        font-size: 28px !important;
+        text-align: center !important;
+    }
+    .intro_para{
+        font-size: 18px !important;
+        text-align: center !important;
+    }
+    .pic1{
+        width:180px !important;
+        height:180px !important;
+    }
+}

@@ -1,0 +1,51 @@
+.main_div{
+    background-color: rgb(19, 19, 19);
+    padding-bottom: 100px;
+    border-top: 7px solid rgb(51, 51, 51);
+    border-bottom: 7px solid orangered;
+}
+
+.skills{
+    color: orangered;
+    padding-bottom: 5px;
+    border-bottom : 5px solid orangered;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.progressbar_content{
+    color: orangered;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.progress_container{
+    padding-top: 45px;
+}
+
+.pic2{
+    width: 75%;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+    transition: transform 0.7s;
+}
+
+.pic2:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:768px){
+    .skills{
+        font-size: 22px !important;
+    }
+    .progressbar_content{
+        font-size: 14px !important;
+    }
+    .progress_container{
+        padding-top: 10px !important;
+    }
+    .pic2{
+        display: none !important;
+    }
+}

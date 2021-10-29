@@ -1,0 +1,105 @@
+.main_wrapper{
+    border: 1px solid rgb(136, 136, 136);
+    width: 60%;
+    margin-top: 5%;
+    border-radius: 8px;
+}
+
+.contact_heading{
+    color: white;
+    text-decoration: underline;
+}
+
+.contact_list{
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+}
+
+.gmail{
+    color: rgb(187, 0, 27);
+    font-size: 32px;
+
+}
+
+.gmail_content{
+    color: white;
+    font-size: 28px;
+}
+
+.whatsapp{
+    color: rgb(18, 140 ,126);
+    font-size: 32px;
+}
+
+
+.whatsapp_content>a{
+    color: white;
+    font-size: 28px;
+}
+
+.whatsapp_content>a:hover{
+color: orangered;
+transition: 0.5s all ease;
+}
+
+.facebook{
+    color: rgb(66, 103, 178);
+    font-size: 32px
+}
+
+.facebook_content>a{
+    color: white;
+    font-size: 28px;
+}
+
+.facebook_content>a:hover{
+    color: orangered;
+    transition: 0.5s all ease;
+    }
+
+.linkedin{
+    color: rgb(14,118,168);
+    font-size: 32px;
+}
+
+.linkedin_content>a{
+    color: white;
+    font-size: 28px;
+}
+
+.linkedin_content>a:hover{
+    color: orangered;
+    transition: 0.5s all ease;
+    }
+
+.github{
+    color: white;
+    font-size: 32px;
+}
+
+.github_content>a{
+    color: white;
+    font-size: 28px;
+}
+
+.github_content>a:hover{
+    color: orangered;
+    transition: 0.5s all ease;
+    }
+
+@media screen and (max-width:768px){
+    .main_wrapper{
+        width:94% !important;
+    }
+    .github,.facebook,.whatsapp,.gmail, .linkedin{
+        font-size: 24px !important;
+    }
+    .contact_heading{
+        font-size: 24px !important;
+    }
+    .whatsapp_content>a, .github_content>a,.gmail_content, .facebook_content>a, .linkedin_content>a{
+        font-size: 14px !important;
+    }
+    
+}

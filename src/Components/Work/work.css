@@ -1,0 +1,104 @@
+.work{
+    color: rgb(88, 88, 88);
+    padding-bottom: 5px;
+    border-bottom : 5px solid rgb(88, 88, 88);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.work_heading{
+    padding-top: 40px;
+}
+
+.main_work{
+    background-color: rgb(199, 198, 198);
+    border-bottom: 7px solid orangered;
+}
+
+.work_main_div{
+    padding-top:60px;
+}
+
+.work_para{
+    padding-top: 40px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.work_list{
+    padding:0;
+    margin: 0;
+    list-style-image: url('../../Assets/bullet.png');
+    
+}
+
+.work_list>li{
+    font-size: 18px;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.Apps{
+    color: orangered;
+    font-weight: 700;
+}
+
+.webpic{
+width: 100%;
+height: 180px;
+border-radius: 8px;
+}
+
+.first_div{
+    position: relative;
+    
+}
+
+.sub_div{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: orangered;
+    border-radius: 8px;
+}
+
+.card_link{
+    color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+    
+}
+
+.first_div:hover .sub_div{
+    opacity: 0.7;
+}
+
+.card_icon{
+    color: black;
+}
+
+.card_link:hover, .card_icon:hover{
+    color: white;
+}
+
+@media screen and (max-width:768px) {
+    .work{
+     
+        font-size: 22px !important;
+    }
+    .work_main_div{
+        padding-top: 30px !important;
+    }
+}

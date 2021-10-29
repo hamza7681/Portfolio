@@ -1,0 +1,15 @@
+.copyright_div{
+    background-color: rgb(31, 31, 31);
+    height: 50px;
+}
+
+.copyright_para{
+    color: orangered;
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px){
+    .copyright_para{
+        font-size: 12px !important;
+    }
+}

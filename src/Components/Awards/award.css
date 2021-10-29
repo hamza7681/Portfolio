@@ -1,0 +1,28 @@
+.awards{
+    color: orangered;
+    padding-bottom: 5px;
+    border-bottom : 5px solid orangered;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.awards_wrapper{
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+
+
+.cer_img{
+border-radius: 8px;
+width: 100%;
+height: 550px;
+}
+
+@media screen and (max-width:768px){
+    .awards{
+        font-size: 22px !important;
+    }
+    .cer_img{
+        height: 350px !important;
+    }
+}

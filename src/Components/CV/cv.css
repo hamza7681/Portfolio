@@ -1,0 +1,26 @@
+.cv_form{
+    width: 90%;
+    height: 600px;
+}
+
+.cv{
+    color: orangered;
+    padding-bottom: 5px;
+    border-bottom : 5px solid orangered;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.cv_wrapper{
+    padding-top: 45px;
+    padding-bottom: 65px;
+}
+
+@media screen and (max-width:768px) {
+    .cv_form{
+        height: 500px !important;
+    }
+    .cv{
+        font-size: 22px !important;
+    }
+}

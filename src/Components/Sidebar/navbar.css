@@ -1,0 +1,73 @@
+
+.navbar_main{
+    
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    transition: 0.5s all ease;
+}
+
+.new_navbar{
+    background-color: orangered;
+    
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    transition: 0.5s all ease;
+}
+
+.nav_link{
+    color: white;
+    
+}
+
+.nav_link:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    width:70px;
+    height:70px;
+}
+
+.navbar_brand{
+    color:white;
+    font-size: 32px;
+    
+}
+
+.navbar_list{
+    color: white;
+   
+    font-weight: 700;
+}
+
+.navbar_list:hover{
+    color: black;
+    text-decoration: none;
+   
+    transition: 0.5s all ease;
+    font-weight: 700;
+}
+
+.nav_icons{
+    padding-right: 2px
+}
+
+.nav_icons>a{
+    color: white;
+    font-size: 26px;
+}
+
+@media screen and (max-width:768px){
+   .navbar_brand{
+       font-size: 24px;
+       padding-top:8px;
+    }
+   .logo{
+       width:50px;
+       height:50px;
+   }
+   
+} 

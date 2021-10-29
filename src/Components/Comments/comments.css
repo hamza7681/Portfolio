@@ -1,0 +1,40 @@
+.label_color{
+    color: orangered;
+    font-weight: bold;
+}
+
+.comments_wrapper{
+    background-color: rgb(19, 19, 19);
+    padding-bottom: 45px;
+}
+
+.comments{
+    color: orangered;
+    padding-bottom: 5px;
+    border-bottom : 5px solid orangered;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.input_field{
+    background-color: rgb(167, 165, 165);
+    outline: none;
+    border: none;
+}
+
+.input_field::placeholder{
+    color: white;
+}
+
+.com_btn{
+background-color: orangered;
+color: white;
+padding: 12px 8px 12px 8px;
+border-radius: 4px;
+}
+
+@media screen and (max-width:768px) {
+    .comments{
+        font-size: 22px !important;
+    }
+}
