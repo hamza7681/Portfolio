@@ -15,7 +15,7 @@ function HomePage() {
       <Work />
       <AwardsData />
       <Github/>
-      <Comments/>
+    
     </>
   );
 }

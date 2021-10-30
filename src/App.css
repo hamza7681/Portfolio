@@ -3,6 +3,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Merienda', cursive;
 }
 
 html{
@@ -10,8 +11,8 @@ html{
 }
 
 body{
-    font-family: 'Merienda', cursive;
-    background: radial-gradient(orangered,blue)    
+    
+    background: radial-gradient(rgb(131, 131, 131),rgb(19,19,19))    
 }
 
 

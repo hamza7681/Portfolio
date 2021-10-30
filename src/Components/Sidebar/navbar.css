@@ -44,7 +44,7 @@
 }
 
 .navbar_list:hover{
-    color: black;
+    color: rgb(85, 84, 83);
     text-decoration: none;
    
     transition: 0.5s all ease;
